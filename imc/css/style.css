@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  color: rgba(15, 15, 15, 0.692);
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+h1 {
+  padding: 0.625rem;
+  color: rgba(0, 0, 0, 0.945);
+}
+
+h2 {
+  color: rgba(0, 0, 0, 0.945);
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: solid rgba(15, 15, 15, 0.692) 0.0625rem;
+  padding: 0.625rem;
+  border-radius: 0.9375rem;
+}
+
+.input {
+  outline: none;
+  width: 18.75rem;
+  height: 2.1875rem;
+  border-radius: 1.5625rem;
+}
+
+.input::-webkit-input-placeholder {
+  padding: 0.625rem;
+}
+
+.input:-ms-input-placeholder {
+  padding: 0.625rem;
+}
+
+.input::-ms-input-placeholder {
+  padding: 0.625rem;
+}
+
+.input::placeholder {
+  padding: 0.625rem;
+}
+
+#caucular {
+  display: block;
+  margin-top: 1.875rem;
+  width: 18.75rem;
+  border-radius: 1.5625rem;
+  height: 2.1875rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.resultado {
+  border: solid rgba(15, 15, 15, 0.692) 0.0625rem;
+  height: 6.25rem;
+  width: 18.75rem;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.945);
+  padding: 0.625rem;
+  text-align: center;
+  border-radius: 0.9375rem;
+}
+/*# sourceMappingURL=style.css.map */

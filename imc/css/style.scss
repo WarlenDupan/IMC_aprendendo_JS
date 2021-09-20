@@ -1,0 +1,70 @@
+@import  'funcoes';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(15, 15, 15, 0.692);
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    padding: rem(10);
+    color: rgba(0, 0, 0, 0.945);
+}
+
+h2{
+    color: rgba(0, 0, 0, 0.945);
+}
+
+.container{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    border: solid rgba(15, 15, 15, 0.692) rem(1);
+    padding: rem(10);
+    border-radius: rem(15);
+}
+
+.input {
+    outline: none;
+    width: rem(300);
+    height: rem(35);
+    border-radius: rem(25);
+
+    &::placeholder {
+       padding:  rem(10);
+    }
+
+    
+}
+
+#caucular {
+    display: block;
+    margin-top: rem(30);
+    width: rem(300);
+    border-radius: rem(25);
+    height: rem(35);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.resultado {
+    border: solid rgba(15, 15, 15, 0.692) rem(1);
+    height: rem(100);
+    width: rem(300);
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.945);
+    padding: rem(10);
+    text-align: center;
+    border-radius: rem(15);
+}
